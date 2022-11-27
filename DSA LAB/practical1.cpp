@@ -14,7 +14,6 @@ struct Employee{
 	int id;
 	string name;
 	string col;
-	//int chain;
 	int key;
 };
 
@@ -66,7 +65,7 @@ HashTable::HashTable(){
 		Table[i].key=-1;
 		Table[i].name="null";
 		Table[i].col="null";
-		//Table[i].chain=-1;
+	
 	}
 }
 
@@ -94,7 +93,7 @@ void HashTable::insertion(){
 		}
 		if(flag!=0){
 			Table[index].col="1";
-			//Table[index].chain=c;
+			
 		}
 		Table[index].id=id;
 		Table[index].name=name;
