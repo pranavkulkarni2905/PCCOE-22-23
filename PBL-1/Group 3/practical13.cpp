@@ -28,12 +28,12 @@ int main() {
     
     int flag[n]={0};          
    // cout<<"\nRepeated Numbers with their frequency:";
-    for(i=1; i<n; i++)
+    for(i=0; i<n; i++)
     {
       count=0;
       if(flag[i]!=1)       // if element set[i] is not considered for counting the frequency of a repeated number
       {
-         for(j=1; j<n; j++)
+         for(j=0; j<n; j++)
          {
             if(set[i]==set[j])
             {
