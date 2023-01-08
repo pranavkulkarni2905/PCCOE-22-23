@@ -15,11 +15,11 @@ int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
     int i,j,n,count;
     
-    //cout<<"Enter no. of elements:";
+    cout<<"Enter no. of elements:";
     cin>>n;
    
     int set[n];
-    //cout<<"\nEnter the elements:";
+    cout<<"\nEnter the elements:";
     for(i=0; i<n; i++)
     {
        cin>>set[i];
@@ -27,7 +27,7 @@ int main() {
     
     
     int flag[n]={0};          
-   // cout<<"\nRepeated Numbers with their frequency:";
+   cout<<"\nRepeated Numbers with their frequency:";
     for(i=0; i<n; i++)
     {
       count=0;
