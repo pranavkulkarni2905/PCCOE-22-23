@@ -7,8 +7,6 @@ element from it and reverse the list
 */
 
 #include <iostream>
-using namespace std;
-#include <iostream>
 #include <iomanip> // For setw()
 using namespace std;
 
