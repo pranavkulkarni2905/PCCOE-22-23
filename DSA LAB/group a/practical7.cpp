@@ -56,6 +56,9 @@ int main(){
     visit[i]=false;
   }
   //input for edges
+//  do{
+//  	
+//  }while(choice==1);
   edge(adj,0,2);
   edge(adj,0,1);
   edge(adj,1,3);

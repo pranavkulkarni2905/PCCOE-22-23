@@ -58,22 +58,21 @@ void postorder(struct node* root){
 int search(struct node* root ,int data){
  int flag=0;
  if(root==NULL){
-   return NULL;
+   return 0;
  }
  if(root->data==data){
   flag=1;
   return flag;
  }
  if(data<root->data){
+ 
    search(root->left,data);
-   flag=1;
-   return flag;
+   
  }
  if(data>root->data){
   
   search(root->right,data);
-  flag=1;
-  return flag;
+  
  }
 }
 // Find the inorder successor

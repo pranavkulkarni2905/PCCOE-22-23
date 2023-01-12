@@ -1,7 +1,3 @@
-/*
-Author:Pranav Kulkarni SYCOA288
-
-*/
 #include <iostream>
 #include <iomanip>
 #include <map> 
@@ -60,13 +56,20 @@ void Map::add()
 void Map::display()
 {
     cout << "\n------------------------------------------------\n";
+//    cout << left << setw(10) << "ID";
+//    cout << left << setw(13) << "Name";
+//    cout << left << setw(10) << "DOB";
+//    cout << left << setw(10) << "Telephone";
 	cout<<"\nId\tName\tDOB\tTelephone";
     cout << "\n------------------------------------------------\n";
+    // # Iterator
     map<int, Person>::iterator i = m.begin();
     for (i; i != m.end(); ++i)
     {
     	Person p=i->second;
     	cout<<i->first<<"\t"<<p.name<<"\t"<<p.dob<<"\t"<<p.tel<<"\n";
+        //cout << left << setw(10) << i->first;
+        //cout << i->second;
         cout << "\n------------------------------------------------\n";
     }
 }
@@ -86,10 +89,14 @@ void Map::search()
             flag = 1;
             cout << "\n* Data Found..!" << endl;
             cout << "\n--------------------------------------\n";
+//           cout << left << setw(10) << "Name";
+//           cout << left << setw(13) << "DOB";
+//           cout << left << setw(10) << "Telephone";
 			cout<<"\nName\tDOB\tTelephone";
             cout << "\n--------------------------------------\n";
             Person p=i->second;
             cout<<p.name<<"\t"<<p.dob<<"\t"<<p.tel;
+            //cout << i->second;
             cout << "\n--------------------------------------\n";
             break;
         }

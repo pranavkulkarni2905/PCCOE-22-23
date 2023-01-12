@@ -45,7 +45,7 @@ void find_MST(int cost[V][V])
 
     // Initialize all the arrays 
     for (int i = 0; i< V; i++) { 
-        key[i] = 999;    // 99 represents an Infinite value
+        key[i] = 999;    // 999 represents an Infinite value
         visited[i] = false;
         parent[i]=-1;
     }    

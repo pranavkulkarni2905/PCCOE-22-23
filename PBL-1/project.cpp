@@ -9,7 +9,7 @@
 	
 	3. Ritish Shelke  (SYCOA302)        ritish.shelke22@pccoepune.org
 	
-	4.Utakarsha Late (SYCOA291)         utakarsha.late22@pccoepune.org
+	4.Utkarsha Late (SYCOA291)         utkarsha.late22@pccoepune.org
 	
 	 Guided By :-			
 				Mrs.Reena Kharat Mam 
@@ -266,7 +266,7 @@ void head::captacha()
         if (ans == userans)
         {
             system("cls");
-            cout << "\n\n\t\tHello Mr/Mrs " << reguser << "\n\n\t\tYou are logged suucessfuly.\n\n\n\t\tWe're glad that you're here.\n\n\t\tThanks for logging In.\n\n\t\t<SHOPPING WITH US & ENJOY FULL>";
+            cout << "\n\n\t\tHello Mr/Mrs " << reguser << "\n\n\t\tYou are logged suucessfuly.\n\n\n\t\tWe're glad that you're here.\n\n\t\tThanks for logging In.\n\n\t\t";
             cout << "\n\n\n\t\t\t<Press Enter Key To Continue>";
             cin.get();
             cin.get();
@@ -391,7 +391,7 @@ void head::contactUs()
 {
     system("cls");
     cout << "\n\n\n\t\t\t* Welcome To EverGreen Shopping Mall *";
-    cout << "\n\n\t\t\t| Contact Us - i) Pranav Kulkarni  ii)Ravindra Kadam";
+    cout << "\n\n\t\t\t| Contact Us - i) Pranav Kulkarni  ii)Ritish Shelke iii) Saurabh Asnare";
     cout << "\n\n\t\t\t| Email Id - pranavkulkarni1110@gmail.com";
     cout << "\n\n\t\t\t| Mo.No - +918237196934";
     cout << "\n\n\t\t\t--------------------------------------------------------------------";
@@ -797,7 +797,7 @@ public:
     void productInfo();
 };
 /***********************************************************************************
- *productinfo method is meber funciton of productoperation and declaring at outside the class
+ *productinfo method is member funciton of productoperation and declaring at outside the class
 **************************************************************************************/
 void productOperations::productInfo() //calling using scope resolution operator
 {

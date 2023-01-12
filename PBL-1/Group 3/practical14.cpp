@@ -51,7 +51,7 @@ int main()
    cout<<"\nUnsorted Data:\n";
    display(name,n);
     
-    selectionSort(name,n);
+   selectionSort(name,n);
     
     
 
